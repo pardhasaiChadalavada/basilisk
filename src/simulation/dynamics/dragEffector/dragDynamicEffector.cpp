@@ -28,8 +28,7 @@ DragDynamicEffector::DragDynamicEffector()
 	this->coreParams.dragCoeff = 0.0;
     this->coreParams.comOffset.setZero();
 	this->modelType = "cannonball";
-	this->forceExternal_B.fill(0.0);
-	this->torqueExternalPntB_B.fill(0.0);
+
 	this->v_B.fill(0.0);
 	this->v_hat_B.fill(0.0);
 
